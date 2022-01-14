@@ -23,5 +23,8 @@ P2P Cricket Bets using bitcoin
 ### Things to do:
 
 - Implement discreet log contracts using [`bitcoin-s`](https://bitcoin-s.org/docs/0.5.0/wallet/dlc) RPC
+- Use Avalonia to make the application cross platform
+- Use Wasabi RPC for coinjoin (optional)
+- Improve offerbook and most probably use GNUnet API in future
 
 :question: If you have any questions and ideas, please feel free to create issues or pull requests.

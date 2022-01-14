@@ -1,0 +1,22 @@
+﻿<Window x:Class="GokOne.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GokOne"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF292626">
+        <RichTextBox x:Name="offerlist" Margin="112,152,163,112" Background="#FF292626" Foreground="White">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox" />
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="getoffers_button" Content="Get Offers" HorizontalAlignment="Left" Margin="112,340,0,0" VerticalAlignment="Top" Height="31" Width="148" Click="getoffers_button_Click" BorderBrush="#FF74ECAC" Background="#FF74ECAC" />
+        <Button x:Name="button_acceptoffer" Content="Accept Offer" HorizontalAlignment="Left" Margin="473,342,0,0" VerticalAlignment="Top" Height="31" Width="146" Background="#FF74ECAC" BorderBrush="#FF74ECAC" Click="button_acceptoffer_Click" />
+        <Button x:Name="button_CreateOffer" Content="Create Offer" HorizontalAlignment="Left" Margin="293,342,0,0" VerticalAlignment="Top" Height="31" Width="146" Background="#FF74ECAC" BorderBrush="#FF74ECAC" Click="button_CreateOffer_Click" />
+        <ListBox x:Name="address_list" Margin="112,70,168,317" Foreground="White" Background="#FF292626" />
+    </Grid>
+</Window>

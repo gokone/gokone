@@ -1,0 +1,14 @@
+﻿<Window x:Class="GokOne.CreateOffer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GokOne"
+        mc:Ignorable="d"
+        Title="CreateOffer" Height="450" Width="800">
+    <Grid Background="#FF292626">
+        <TextBox x:Name="publicKey" HorizontalAlignment="Left" Margin="214,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="520" FontFamily="Yu Gothic UI" Background="#FF292626" Foreground="White" />
+        <Label x:Name="label_publicKey" Content="Public Key:" HorizontalAlignment="Left" Margin="129,137,0,0" VerticalAlignment="Top" Foreground="White" />
+        <Button x:Name="broadcast_pKey" Content="Submit" HorizontalAlignment="Left" Margin="357,214,0,0" VerticalAlignment="Top" Height="31" Width="148" Background="#FF74ECAC" BorderBrush="#FF74ECAC" Click="broadcast_pKey_Click" />
+    </Grid>
+</Window>

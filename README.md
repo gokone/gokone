@@ -4,7 +4,7 @@
 
 P2P Cricket Bets using bitcoin
 
-![image](https://user-images.githubusercontent.com/13405205/149520338-2333034e-e9ef-43fa-97c4-4771266b58c4.png)
+![image](https://user-images.githubusercontent.com/13405205/149520797-b0cfb3df-f2e4-4e1e-8cd4-6e43d178e9d0.png)
 
 
 ### Available features:

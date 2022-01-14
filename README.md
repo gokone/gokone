@@ -12,7 +12,7 @@ P2P Cricket Bets using bitcoin
 
 ### How to use:
 
-:information_source: Ensure that `bitcoind` settings are set correctly while using scripts. Apart from things mentioned in comments for each script and variables, save below things in _bitcoin.conf_ before running application or scripts:
+:information_source: Change _json_path_ until a default location is used for saving offer addresses
 
 1. Run `bitcoind`
 
